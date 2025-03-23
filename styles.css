@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SWAGATHAM to My Personal Website</h1>
+        <nav id="main-nav">
+                
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="personal.html">About Me</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="hometown.html">Hometown</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <img src="images/24UBC118LH6ggf0IkUAoGvUj.jpg" alt="My Profile Picture" class="profile-image">
+            <h2>Hello, I'm ASBIN NAZEER</h2>
+            <p>Welcome to my personal website. I am a student at Marian College Kuttikkanam, pursuing a degree in Computer Applications.</p>
+            <p>This website is designed to showcase different aspects of my life, interests, and academic journey.</p>
+            <div class="cta-buttons">
+                <button onclick="location.href='personal.html'" class="btn">Learn More About Me</button>
+                <button onclick="location.href='feedback.html'" class="btn">Contact Me</button>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <h2>Website Highlights</h2>
+            <div class="cards-container">
+                <div class="card" onclick="location.href='personal.html'">
+                    <h3>My Personal Life</h3>
+                    <p>Learn about my hobbies, interests, and passions.</p>
+                </div>
+                <div class="card" onclick="location.href='family.html'">
+                    <h3>My Family</h3>
+                    <p>Meet the people who have shaped my life journey.</p>
+                </div>
+                <div class="card" onclick="location.href='hometown.html'">
+                    <h3>My Hometown</h3>
+                    <p>Explore the place where I grew up.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [ASBIN NAZEER]. Created for Web Technology Course - Marian College Kuttikkanam</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
